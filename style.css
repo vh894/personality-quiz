@@ -1,0 +1,26 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Marcellus SC", sans-serif;
+  margin: 2em;
+  background: #C2C2C2;
+  background image: 
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+.answer-choice img {
+  height: 10em;
+}

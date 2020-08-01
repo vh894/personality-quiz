@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Plan Out Your Breakfast and Find Out Which Greek God You Are</h1>
+
+    <h2>Which breakfast would you like?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1533007576165-faccd6a6a056?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        />
+        <br />
+        <button id="q1a1">Overnight Oats</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+        <br />
+        <button id="q1a2">Pancakes</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.pexels.com/photos/3957527/pexels-photo-3957527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+        <br />
+        <button id="q1a3">Avocado Toast</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1574025343720-8eaa3bb9be37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
+        />
+        <br />
+        <button id="q1a4">Chicken and Waffles</button>
+      </div>
+    </div>
+
+    <h2>What fruits do you want?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1474152042542-1e794677a34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        />
+        <br />
+        <button id="q2a1">Grapes</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1567209744115-d3f5fb6ae388?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
+        />
+        <br />
+        <button id="q2a2">Strawberry</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1567209472247-9a4963aef7c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+        />
+        <br />
+        <button id="q2a3">Apple</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1566393028639-d108a42c46a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1327&q=80"
+        />
+        <br />
+        <button id="q2a4">Banana</button>
+      </div>
+    </div>
+
+    <h2>What drink would you like?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1543573852-1a71a6ce19bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        />
+        <br />
+        <button id="q3a1">Smoothie</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.pexels.com/photos/374147/pexels-photo-374147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+        <br />
+        <button id="q3a2">Coffee</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1554140426-5e830b73a5e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        />
+        <br />
+        <button id="q3a3">Water</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.pexels.com/photos/158053/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+        <br />
+        <button id="q3a4">Juice</button>
+      </div>
+    </div>
+
+    <h2>Where are you going to eat your breakfast?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        />
+        <br />
+        <button id="q4a1">Car</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1360&q=80"
+        />
+        <br />
+        <button id="q4a2">Kitchen</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1330&q=80"
+        />
+        <br />
+        <button id="q4a3">Cafe</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80"
+        />
+        <br />
+        <button id="q4a4">Bedroom</button>
+      </div>
+    </div>
+
+    <h2>What time are you going to eat breakfast?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://images.pexels.com/photos/359989/pexels-photo-359989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        />
+        <br />
+        <button id="q5a1">7:00 am</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1564518025118-46897fe4b0e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        />
+        <br />
+        <button id="q5a2">9:00 am</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.pixabay.com/photo/2015/11/07/11/48/clock-1031503_1280.jpg"
+        />
+        <br />
+        <button id="q5a3">10:00 am</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://images.unsplash.com/photo-1584793036792-4a147297b368?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        />
+        <br />
+        <button id="q5a4">12:00 pm</button>
+      </div>
+    </div>
+
+    <div class="result">
+      <h2 id="result">Your result is...</h2>
+      <button id="redo">Restart</button>
+    </div>
+  </body>
+</html>
